@@ -1,6 +1,6 @@
 exports.questions = [
     {
-        full: 'On the That so 70\'s show, Bula(middle name) is the middle name of the character Donna.',
+        full: 'On the That 70\'s show, Bula(middle name) is the middle name of the character Donna.',
         cloze: 'Bula'
     },
     {

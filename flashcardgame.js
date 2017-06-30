@@ -43,7 +43,7 @@ function askQuestion() {
       console.log('Game Over!');
       console.log('Correct Answers: ' + correct);
       console.log('Incorrect Answers: ' + wrong);
-      console.log('\n AHhhhhh noooooo. (Fez is dissapointed in you!)\n');
+      console.log('\n AHhhhhh noooooo. (Fez is sad the game is over!)\n');
 
       inquirer.prompt([
         {
@@ -65,5 +65,5 @@ function askQuestion() {
     }
   })
 }
-console.log('Welcome to That so 70 show Trivia! \n')
+console.log('Welcome to That 70\'s show Trivia! \n')
 askQuestion();
