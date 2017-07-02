@@ -87,7 +87,10 @@ function askQuestion() {
       console.log('Wrong, Red is gonna put his foot up your ass! \n (You know he will...)\n');
       wrong++;
     }
-    console.log(closeQuestions[currentQuestion].full);
+    console.log("");
+    console.log("Answer: " + closeQuestions[currentQuestion].full);
+    console.log("");
+    console.log("");
 
     if (currentQuestion < closeQuestions.length - 1) {
       currentQuestion++;
@@ -141,7 +144,12 @@ function askQuestionb() {
       console.log('Wrong, Red is gonna put his foot up your ass! \n (You know he will...)\n');
       wrong++;
     }
-    console.log(basic[currentQuestion].front);
+    
+    console.log("");
+    console.log("Answer: " + basic[currentQuestion].back);
+    console.log("");
+    console.log("");
+
 
     if (currentQuestion < basic.length - 1) {
       currentQuestion++;
